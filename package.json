@@ -1,13 +1,11 @@
 {
   "name": "notedly-web",
   "version": "1.0.0",
-  "description": "[WIP] Web code examples for JavaScript Everywhere by Adam Scott, published by O'Reilly Media",
+  "description": "Notedly Web",
   "main": "src/index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "final": "parcel final/index.html",
     "deploy:src": "parcel build src/index.html --public-url ./",
-    "deploy:final": "parcel build final/index.html --public-url ./",
     "cy:run": "cypress run",
     "cy:open": "cypress open"
   },
@@ -16,12 +14,7 @@
     "url": "git+https://github.com/javascripteverywhere/web.git"
   },
   "keywords": [],
-  "author": "Adam Scott <adam@jseverywhere.io>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/javascripteverywhere/web/issues"
-  },
-  "homepage": "https://github.com/javascripteverywhere/web#readme",
+  "author": "Abubakr Juraev",
   "dependencies": {
     "@apollo/client": "3.0.0-beta.24",
     "@types/react": "^16.14.16",
