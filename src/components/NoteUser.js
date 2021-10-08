@@ -12,7 +12,7 @@ const NoteUser = props => {
   if (loading) return <p>Loading...</p>;
   // if there is an error fetching the data, display an error message
   if (error) return <p>Error!</p>;
-  console.log(data.me.id === props.note.author.id);
+
   return (
     <React.Fragment>
       <FavoriteNote
